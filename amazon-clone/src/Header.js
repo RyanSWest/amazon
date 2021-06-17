@@ -9,12 +9,15 @@ const Header = () => {
   return (
     <Container>
       <HeaderLogo>
+        <Link to = "/"> 
         <img
           src={
             "https://tse3.mm.bing.net/th?id=OIP.iXao1MSXhGqKlExeC9ZC0gHaD2&pid=Api&P=0&w=321&h=168"
           }
         />
+         </Link>
       </HeaderLogo>
+      
       <LocationOnIcon/>
       <HeaderOptionAdress>
         <HeaderOption>
