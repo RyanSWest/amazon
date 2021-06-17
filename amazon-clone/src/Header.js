@@ -42,14 +42,16 @@ const Header = () => {
 
           <OptionLineTwo>& Deliveries</OptionLineTwo>
         </HeaderOption>
-        
-          <Link to ="/cart"> 
+
+          
         <HeaderOptionCart>
+        <Link to ="/cart"> 
           <ShoppingBasketIcon />
 
           <CartCount>5</CartCount>
+          </Link>
         </HeaderOptionCart>
-        </Link>
+         
       </HeaderNavItems>
     </Container>
   );
@@ -125,6 +127,14 @@ const HeaderOptionCart = styled.div`
 display:flex;
 align-items:center;
 padding-right: 9px;
+a {
+  display: flex;
+  align-items: center;
+  padding-right: 9px;
+  color: white;
+  text-decoration: none;
+
+}
 
 `;
 
